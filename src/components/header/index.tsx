@@ -8,6 +8,7 @@ const Header = () => {
       <nav className="flex gap-8">
         <HeaderLink href="/" title="Home" />
         <HeaderLink href="/auth" title="Authentication" />
+        <HeaderLink href="/beers" title="Beers" protect={true} />
       </nav>
       <div className="flex gap-8">
         <div className="relative rounded-xl bg-blue-500/40 p-2 text-sm font-semibold leading-none text-blue-400">

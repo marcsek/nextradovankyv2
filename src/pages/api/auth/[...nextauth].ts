@@ -11,6 +11,9 @@ export const authOptions: NextAuthOptions = {
       return session;
     },
   },
+  pages: {
+    signIn: '/auth',
+  },
   // Configure one or more authentication providers
   providers: [
     GitHubProvider({

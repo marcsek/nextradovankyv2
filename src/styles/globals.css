@@ -4,9 +4,17 @@
 
 @layer base {
   :root {
+    color-scheme: dark;
+
     --color-background: 23 23 23;
     --color-foreground: 30 30 30;
     /* ... */
+  }
+}
+
+@layer base {
+  [data-nextjs-scroll-focus-boundary] {
+    display: contents;
   }
 }
 
